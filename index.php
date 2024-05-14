@@ -8,7 +8,7 @@
   <?php 
     require "header.php"; 
     require_once "includes/class_autoloader.php";
-
+    
     // database initialization
     $dbinit = new InitDB();
     $dbinit->initDbExec();

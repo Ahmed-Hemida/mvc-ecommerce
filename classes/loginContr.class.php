@@ -9,6 +9,8 @@ class LoginContr extends Login {
   {
     $this->username = $username;
     $this->pwd = $pwd;
+    print("Please adwe enter");
+  die;
   }
 
   private function checkEmptyInput() {
